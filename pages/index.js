@@ -8,7 +8,7 @@ export default function HomePage() {
       WebViewer(
         {
           path: '/webviewer/lib',
-          initialDoc: '/files/pdftron_about.pdf',
+          initialDoc: '/files/santo-agostinho.pdf',
         },
         viewer.current
       ).then((instance) => {
